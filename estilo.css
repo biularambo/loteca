@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(154, 233, 89);
+    background-color: rgb(107, 53, 158);
+    border-radius: 6em;
+}
+
+h2{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(107, 53, 158);
+    background-color: rgb(154, 233, 89);
+    border-radius: 6em;
+}
+
+button{
+    
+    background-color:blueviolet; 
+    color: rgb(235, 221, 248);
+    font-size: 1em;
+    border-radius: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+div{
+    padding: 5px;
+    background-color: rgb(231, 221, 241);
+    display: flex;
+    color: rgb(73, 13, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecao > input{
+    width: 1.5em;
+    background-color: rgb(226, 238, 214);
+    margin-right: 15px;
+    font-size: 4em;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(163, 121, 184);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(250, 241, 255);
+    margin: 0px;
+    padding: 20px;
+}

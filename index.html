@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Loteca - Simulador de loteria</title>
+</head>
+<body>
+    <header>
+        <h1>Loteca</h1>
+        <h2>Simulador de Loteria</h2>
+        <link rel="stylesheet" href="estilo.css">
+    </header>
+
+    <div class="selecao">
+    <input type="number" id="num1" class="num" onchange="getValor(value, 0)">
+    <input type="number" id="num2" class="num" onchange="getValor(value, 1)">
+    <input type="number" id="num3" class="num" onchange="getValor(value, 2)">
+    <input type="number" id="num4" class="num" onchange="getValor(value, 3)">
+    <input type="number" id="num5" class="num" onchange="getValor(value, 4)">
+    <input type="number" id="num6" class="num" onchange="getValor(value, 5)">
+    
+    </div>
+
+    <button onclick="sorteio()">Sortear</button>
+
+    <div class="sorteio">
+        <h4>Números Sorteados:</h4>
+        <p id="sorteados"></p>
+    </div>
+
+    <div class="acertos">
+        <h4>Acertos</h4>
+        <p id="acertos"></p>
+    </div>
+    
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/biularambo">@biularambo</a> </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
